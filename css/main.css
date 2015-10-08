@@ -19,3 +19,25 @@ body{
 			background-color: #FFE4C4;
 		}
 	}
+
+	/*desktop-first*/
+	body{
+		background-color: #DC143C; 
+	}
+
+	@media(max-width: 1080px){
+		body{
+			background-color: #BA55D3; 
+		}
+	}
+	@media (max-width: 550px){
+		body{
+			background-color: #BA55D3; 
+		}
+	}
+	@media (max-width: 400px) {
+		body {
+			background-color: #BA55D3; 
+		}
+	}
+	

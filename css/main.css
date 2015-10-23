@@ -1,43 +1,21 @@
-/*mobile-first*/
 
+/*desktop-first*/
 body{
-	background-color: #FFF0F5; 
+	background-color: #DC143C;
 }
 
-	@media (min-width: 675px) {
-		body{
-			background-color: #FFE4C4; 
-		}
-	}
-	@media (min-width: 999px) {
-		body{
-			background-color: #FFE4C4;
-		}
-	}
-	@media (min-width: 1280px) {
-		body{
-			background-color: #FFE4C4;
-		}
-	}
-
-	/*desktop-first*/
+@media(max-width: 1080px){
 	body{
-		background-color: #DC143C; 
+		background-color: #BA55D3;
 	}
-
-	@media(max-width: 1080px){
-		body{
-			background-color: #BA55D3; 
-		}
+}
+@media (max-width: 550px){
+	body{
+		background-color: #BA55D3; 
 	}
-	@media (max-width: 550px){
-		body{
-			background-color: #BA55D3; 
-		}
+}
+@media (max-width: 400px) {
+	body {
+		background-color: #BA55D3;
 	}
-	@media (max-width: 400px) {
-		body {
-			background-color: #BA55D3; 
-		}
-	}
-	
+}

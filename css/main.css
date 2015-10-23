@@ -1,0 +1,10 @@
+/*combo*/
+body {
+	background-color: #87CEEB;
+}
+
+@media (max-width: 715px) and (min-width: 960px){
+	body{
+		background-color: #7FFFD4; 
+	}
+}

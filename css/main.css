@@ -1,0 +1,53 @@
+/*mobile-first*/
+
+body{
+	background-color: #FFF0F5; 
+}
+
+	@media (min-width: 675px) {
+		body{
+			background-color: #FFE4C4; 
+		}
+	}
+	@media (min-width: 999px) {
+		body{
+			background-color: #FFE4C4;
+		}
+	}
+	@media (min-width: 1280px) {
+		body{
+			background-color: #FFE4C4;
+		}
+	}
+
+	/*desktop-first*/
+	body{
+		background-color: #DC143C; 
+	}
+
+	@media(max-width: 1080px){
+		body{
+			background-color: #BA55D3; 
+		}
+	}
+	@media (max-width: 550px){
+		body{
+			background-color: #BA55D3; 
+		}
+	}
+	@media (max-width: 400px) {
+		body {
+			background-color: #BA55D3; 
+		}
+	}
+
+	/*combo*/
+	body {
+		background-color: #87CEEB; 
+	}
+ 
+	@media (max-width: 715px) and (min-width: 960px){
+		body{
+			background-color: #7FFFD4; 
+		}
+	}
